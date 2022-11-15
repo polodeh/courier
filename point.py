@@ -9,7 +9,7 @@ class Point:
     def __str__(self):
         return f'Point with cords {self.x}, {self.y}'
 
-    def get_dist(self, other_point):
+    def get_dist(self, other_point: object) -> object:
         x1 = self.x
         x2 = other_point.x
         y1 = self.y
